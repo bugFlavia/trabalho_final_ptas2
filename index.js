@@ -13,29 +13,29 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 app.get('/produtos', async function(req, res){
   try {
-    var Produtos = await Produto.select();
-    res.json(Produtos.rows);
+    var produtos = await Produto.select();
+    res.json(produtos.rows);
   } catch (error) {
     console.error('Erro ao buscar Produtos:', error);
     res.status(500).json({ error: 'Ocorreu um erro ao buscar Produtos' });
   }
 });
 
-app.post('produtos', async function(req, res){
+app.post('/produtos', async function(req, res){
   try {
-    var Produto = await Produto.selectOne(req.body.id);
-    res.json(Produto.rows[0]);
+    var produto = await Produto.selectOne(req.body.id);
+    res.json(produto.rows[0]);
   } catch (error) {
     console.error('Erro ao buscar Produtos:', error);
     res.status(500).json({ error: 'Ocorreu um erro ao buscar Produtos' });
   }
 });
 
-app.post('/produtos', async function(req,res){
+app.post('/produto', async function(req,res){
   try{
-    var Produto = req.body
-    var Produto = await Produto.insert(Produto);
-    res.json(Produto.rows)
+    var produto = req.body
+    var produto = await Produto.insert(produto);
+    res.json(produto.rows)
   }catch(error){
     console.log("error")
   }
@@ -44,7 +44,7 @@ app.post('/produtos', async function(req,res){
 app.delete('/produtos', async function(req, res){
   try {
     console.log(req.body.id)
-    var Produto = await Produto.delete(req.body.id);
+    var produto = await Produto.delete(req.body.id);
     res.json(Produto.rows);
   } catch (error) {
     console.error('Erro ao atualizar Produto:', error);
