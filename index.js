@@ -39,6 +39,15 @@ app.post('/produto', async function(req,res){
   }catch(error){
     console.log("error")
   }
+});
+
+app.put('/produto/:id', async function(req,res){
+  try{
+    var produto = await Produto.update(req.params.id, req.body);
+    res.json(produto.rows)
+  }catch(error){
+    console.log("error")
+  }
 })
 
 app.delete('/produtos', async function(req, res){
