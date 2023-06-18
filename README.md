@@ -1,6 +1,4 @@
 # Projeto-Interdisciplinar
-Projeto interdisciplinar entre as disciplinas 
-    
-  - Banco de dados 3 (BD3), 
-  - Programação e Tecnologias aplicadas a clientes 3 (PTAC 3)
-  - Programação e Tecnologias aplicadas a Servidor 2 (PTAS 2)
+Flavia Nunes Barboza de Morais e Maria Fernanda de Souza
+
+faz-se necessária a instalação da biblioteca lucide-react e react-responsive-carousel para execução da api
