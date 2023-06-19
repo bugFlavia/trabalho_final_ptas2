@@ -34,7 +34,7 @@ class Produto {
     }
   }
 
-  static async update(id, data) {
+ static async update(id, data) {
     try {
       const connect = await db.connect();
       const sql = "UPDATE produtos SET titulo=$1, dt_cad=$2, preco=$3, descricao=$4, imagem=$5; WHERE id=$6 id, titulo, dt_cad, preco, descricao, imagem;";
