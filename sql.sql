@@ -14,7 +14,7 @@ insert into produtos (titulo, dt_cad, preco, descricao, imagem) values
 ('L.absolu Mademoiselle Shine Lancôme','2023-06-12', 175.90, 'Batom em bala cremoso, cor 392.', 'https://m.media-amazon.com/images/I/51CPAVbgJxL._AC_UL600_FMwebp_QL65_.jpg'),
 ('Vichy Minéral 89', '2023-06-12', 158.99, 'Sérum Hidratante Fortalecedor Vichy, 50ml.', 'https://m.media-amazon.com/images/I/613bRe9m6BL._AC_UL600_FMwebp_QL65_.jpg'),
 ('Vichy Liftactiv Supreme Creme Noite', '2023-06-12', 689.98, 'Antirrugas e Refirmante, 50ml', 'https://m.media-amazon.com/images/I/51MF6ryb3QL._AC_UL600_FMwebp_QL65_.jpg'),
-('Vichy Liftactiv','2023-06-12', 491.95, 'Sérum para os olhos anti-idade, 15ml.', 'https://www.amazon.com.br/Creme-Anti-Idade-olhos-Vichy-Liftactiv/dp/B01LZHKPX9/ref=sr_1_2?qid=1686668464&refinements=p_89%3AVICHY%2Cp_36%3A17270758011&rnid=16254006011&s=beauty&sr=1-2&ufe=app_do%3Aamzn1.fos.4bddec23-2dcf-4403-8597-e1a02442043d'),
+('Sérum Antirrugas Vichy','2023-06-12', 194.00, 'Ácido Hialuronico Vichy Liftactiv H.A. Filler', 'https://m.media-amazon.com/images/I/51WtAKrVKCL._AC_SX569_.jpg'),
 ('Vichy Neovadiol Rose Platinium','2023-06-12', 599.99, 'Creme rosa antienvelhecimento, 50ml.', 'https://m.media-amazon.com/images/I/71UfbUlmtqL._AC_UL600_FMwebp_QL65_.jpg'),
 ('Vichy Liftactiv Supreme','2023-06-12', 478.59, 'Creme Pele Seca Anti-rugas, 50ml', 'https://m.media-amazon.com/images/I/717B9KfZNVL._AC_UL600_FMwebp_QL65_.jpg'),
 ('Redermic Hyalu C, La Roche-Posay', '2023-06-12', 370.90, 'Ácido hialurônico La Roche Posay branco, 40ml', 'https://m.media-amazon.com/images/I/51Rml1bn7QL._AC_SX679_.jpg'),
